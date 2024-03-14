@@ -32,11 +32,21 @@ console.log(``);
 
 
 // #### Challenge 5: Late Night Coding Session
-// Determine if it's a good idea to have a Monster Energy drink based on the current hour. 
-// If it's before midnight (0 - 23 format), print "Unleash the beast!", otherwise, print "Better stick to water."
+// Determine if it's a good idea to have a Monster Energy drink based on the current hour.
+// If it's between 7am and midnight (7 - 23 format), print "Unleash the beast!",
+// otherwise, print "Better stick to water."
 
-let currentHour = 22; // Current hour in 0 - 23 format
-console.log(``);
+// Define the current hour in 0 - 23 format
+let currentHour = 22; 
+
+// Write your code below this line to determine if it's a good idea to have a Monster Energy drink based on the current hour
+// If it's between 7am and midnight (7 - 23 format), print "Unleash the beast!"
+// Otherwise, print "Better stick to water."
+
+
+
+
+
 
 // In each of these challenges, the ternary operator is used to decide between two options based on a condition, 
 // demonstrating its utility for concise conditional logic. Remember that while ternaries can make the code more succinct, 
